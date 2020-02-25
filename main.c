@@ -2,11 +2,9 @@
 #include <stdlib.h>
 
 int main() {
-    float x;
-    float y;
-    printf("Enter a number: ");
-    scanf("%f", &x);
-    y = x*x + 2*x;
-    printf("y: %f\n", y);
+    int x;
+    printf("Enter a name: ");
+    scanf("%d", &x);
+    printf("The name you entered is: %d\n", x);
     return 0;
 }
